@@ -20,7 +20,7 @@ Mô hình Waterfall hay mô hình thác nước là một mô hình dùng để 
   
    - Thực hiện:
    
-       +) Viết code
+       +) Code
        
        +) Làm frontend, backend
 
