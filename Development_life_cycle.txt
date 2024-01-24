@@ -1,0 +1,67 @@
+1. Pha yêu cầu:
+
+   - Ở pha này bộ phận phân tích yêu cầu sẽ đi gặp và trao đổi với khách hàng cũng như làm rõ các chức năng, các yêu cầu mà khách hàng mong muốn xây dựng trong phần mềm của mình. Trong thực tế khi ở pha này các đơn vị phần mềm sẽ có bộ câu hỏi chung dành cho các dự án cũng như câu hỏi riêng cho đặc thù của dự án cần làm.
+   
+   - Người tham gia: 
+       +) Stake holder
+       +) Business analyst(BA)
+       +) Project manager
+       +) Technical Team
+       +) Quality assurance(QA)
+       +) Designers(UI,UX)
+
+2, Pha đặc tả:
+
+   - Đây là pha sẽ được thực hiện sau khi đã ghi nhận các yêu cầu của khách hàng về bộ phận phân tích sẽ thực hiện làm rõ các yêu cầu và hiện thực hóa bằng một tài liệu SRS gọi là “Tài liệu đặc tả“.
+   
+   - Người tham gia:
+       +) Business analyst(BA)
+       +) Project manager(PM)
+       +) System analyst/Architects
+
+   - Các biểu đồ:
+       +) Use case, class, sequence, activity
+
+3, Pha thiết kế:
+   
+   - Ở pha này sau khi căn cứ vào tài liệu đặc tả, bộ phận thiết kế sẽ thiết kế đưa ra giao diện chung cũng như bộ phận lập trình sẽ thiết kế giao diện mức chi tiết theo từng chức năng của phần mềm. 
+   
+   - Người tham gia:
+       +) UI/UX design
+       +) Software Architect(SA)
+       +) PM
+
+4, Pha lập trình:
+
+   - Trong giai đoạn này SDLC bắt đầu phát triển thực tế và sản phẩm được xây dựng.
+
+   - Người tham gia:
+       +) PM
+       +) Developer: Frontend
+       +) Engineer: Backend
+       +) Devops
+
+5, Pha kiểm thử:
+
+   - Ở pha này, các kiểm thử viên sẽ nhận được các bàn giao chức năng thực hiện từ lập trình viên. Sau đó các kiểm thử viên sẽ thực hiện kiểm tra các chức năng này theo các testcase được xây dựng.
+
+   - Người tham gia:
+       +) QA
+       +) Tester
+
+6, Bàn giao:
+   - Người tham gia:
+       +) Traning staff
+       +) Stake holder: customer
+       +) PM
+       +) QA
+
+7, Pha bảo trì:
+
+   – Software repair (bảo trì sửa lỗi): Thực hiện chỉnh sửa các lỗi phát sinh trong quá trình sử dụng phần mềm của khách hàng.
+
+   – Software update (bảo trì cập nhật):
+
+     +) Bảo trì hoàn thiện: Sửa đổi phần mềm theo ý khách hàng
+     
+     +) Bảo trì thích nghi: Sửa đổi để phần mềm thích nghi với môi trường mới

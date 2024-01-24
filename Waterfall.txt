@@ -1,0 +1,84 @@
+1. What?
+
+Mô hình Waterfall hay mô hình thác nước là một mô hình dùng để mô tả các bước phát triển phần mềm theo trình tự và logic chặt chẽ.
+
+   - Chuẩn bị kĩ thuật (làm rõ yêu cầu): 
+   
+       +) Chức năng
+       
+       +) Phi chức năng
+   
+   - Thiết kế: 
+   
+       +) Tài liệu phân tích thiết kế
+       
+       +) Giao diện người dùng
+       
+       +) High level design
+       
+       +) High availability
+  
+   - Thực hiện:
+   
+       +) Viết code
+       
+       +) Làm frontend, backend
+
+   - Tích hợp và kiểm tra:
+   
+       +) Unit test     
+       
+       +) Intergration test 
+       
+       +) System test        
+       
+       +) Acceptance test    
+
+   - Phát hành:
+   
+       +) Chạy code trên server
+       
+       +) Hệ thống có thể được truy cập
+
+   - Duy trì:
+       +) Sửa lỗi phát sinh sau khi phát hành hệ thống mà người dùng phản hồi
+       
+       +) Thường sẽ xuất hiện trong thời gian ngắn
+
+2. Why?
+
+   - Ưu điểm:
+   
+	+) Đơn giản, dễ hiểu và sử dụng.
+	
+	+) Độ chính xác cao
+	
+	+) Tính linh hoạt (trước khi đến giai đoạn 4)
+	
+	+) Sự rõ ràng
+	
+	+) Phù hợp với các dự án theo từng mốc
+	
+   - Nhược điểm:
+   
+       +) Quá cức nhắc
+       
+       +) Không có kế hoạch dự phòng
+       
+       +) không phù hợp với các dự án phức tạp
+
+3. When?
+
+	- Dự án có yêu cầu cụ thể: dự án có yêu cầu rõ ràng và cố định thì có thể dự đoán được trước vì không cần sự linh hoạt trong việc thay đổi yêu cầu.
+	
+	- Dự án không quá phức tạp: dự án có phạm vi cụ thể, không quá rắc rối để có thể dễ dàng áp dụng waterfall.
+	
+	- Dự án cần ít tương tác: sự tương tác liên tục với người dùng và không yêu cầu phản hồi thường xuyên.
+	
+	- Dự án quan trọng: những dự án quan trọng khi áp dụng waterfall sẽ được kiểm soát kĩ càng và giảm thiểu rủi ro khi gặp lỗi.
+
+4. Một số ví dụ cụ thể nên áp dụng mô hình Waterfall:
+
+	- Lĩnh vực tài chính và ngân hàng: vì dự án trong lĩnh vực này cần sự bảo mật, có độ an toàn, tính chính xác và độ tin cậy cao -> việc áp dụng waterfall có thể theo dõi quy trình và có thể đảm bảo được tính chính xác cũng như độ an toàn của dự án.
+	
+	- Lĩnh vực y tế: việc phát triển các thiết bị y tế hoặc phần mềm y tế cần yêu cầu cao về an ninh, chuẩn mực và độ chính xác cao -> việc áp dụng waterfall có thể đảm bảo quy trình có thể được theo dõi từng bước, kiểm soát nghiêm ngặt và chính xác, tránh được trường hợp sai sót chuyên môn không đáng có.
